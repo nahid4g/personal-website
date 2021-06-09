@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.top-banner {
+	height: 700px;
+}
+.top-banner {
+	background-image: url("../images/header-bg.png");
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	padding-top: 80px;
+}
+.half-width {
+	width: 50%;
+	float: left;
+}
+.half-width img {
+	width: 100%;
+}
+h2 {
+	font-size: 30px;
+}
+h1 {
+	font-size: 40px;
+	margin-top: -5px;
+}
+.tomato-highlight {
+	color: #EC4C78;
+	font-weight: bold;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.container #align-right {
+	padding-top: 90px;
+}
+.container a {
+	text-decoration: none;
+	background-color: #EC4C78;
+	padding: 10px 30px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+/* biography-section */
+.biography-section {
+	background-image: url("../images/biography-bg.png");
+	background-size: cover;
+	height: 700px;
+}
+.biography-section #align-right {
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+
+/* My latest Work */
+.latest-work {
+	height: 500px;
+	background-image: url("../images/latest-work-bg.png");
+	background-size: cover;
+}
+.latest-work h2 {
+	text-align: center;
+}
+.latest-work .my-works {
+	width: 30%;
+	float: left;
+	padding-left: 20px;
+}
+.latest-work .my-works img {
+	width: 100%;
+}
+
+/* Client comment section */
+.client-comments {
+	text-align: center;
+	background-image: url("../images/footer-bg.png");
+	background-size: cover;
+	height: 700px;
+}
+.client-comment-container {
+	width: 40%;
+	margin: auto;
+	padding-top: 120px;
+}
+.clients-about-us {
+	margin: 60px 0;
+	font-weight: bold;
+}
+.clients-about-us .job-position {
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+.leave-message {
+	background-color: #EC4C78;
+	padding: 10px 60px;
+	border-radius: 10px;
+}
+
+/* Footer section */
+footer p {
+	font-size: 14px;
+	text-align: center;
+}
+footer p a {
+	text-decoration: none;
+}
